@@ -1,8 +1,10 @@
+<!DOCTYPE bdcorreo[
 <!ELEMENT bdcorreo (email)+>
 <!ELEMENT email (destinatario,asunto,cuerpo)>
 <!ELEMENT destinatario (#PCDATA)>
 <!ELEMENT asunto (#PCDATA)>
 <!ELEMENT cuerpo (#PCDATA)>
+]>
 <bdcorreo>
     <email>
         <destinatario></destinatario>
